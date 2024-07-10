@@ -4,7 +4,7 @@
     "team_id": "TEAM_1",
     "board created_time": "Wed July 10 13:05:02 2024",
     "board_id": "1",
-    "status": "OPEN",
+    "status": "Pending",
     "tasks": [
         {
             "user_id": "USER_1",
