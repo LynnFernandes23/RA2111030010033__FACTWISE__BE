@@ -22,3 +22,4 @@ This project is a team project planner tool that provides APIs for managing proj
 ## Dependencies
 
 - Python 3.7 or above
+- PostgreSQl 
