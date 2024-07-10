@@ -3,7 +3,7 @@ import json
 import psycopg2
 
 class ProjectBoardBase:
-    
+   
 
     def __init__(self):
         self.connection = psycopg2.connect(
@@ -28,7 +28,7 @@ class ProjectBoardBase:
     # create a board
 
     def create_board(self, request: str):
-        
+
         try:
             result = ""
             json_request = json.loads(request)
@@ -51,7 +51,7 @@ class ProjectBoardBase:
 
     # close a board
     def close_board(self, request: str) -> str:
-     
+       
         try:
             result = ""
             json_request = json.loads(request)
@@ -70,7 +70,7 @@ class ProjectBoardBase:
     # add task to board
 
     def add_task(self, request: str) -> str:
-        
+       
         try:
             result = ""
             json_request = json.loads(request)
@@ -92,31 +92,12 @@ class ProjectBoardBase:
 
     # update the status of a task
     def update_task_status(self, request: str):
-        """
-        :param request: A json string with the user details
-        {
-            "id" : "<task_id>",
-            "status" : "OPEN | IN_PROGRESS | COMPLETE"
-        }
-        """
+        
         pass
 
     # list all open boards for a team
     def list_boards(self, request: str) -> str:
-        """
-        :param request: A json string with the team identifier
-        {
-          "id" : "<team_id>"
-        }
-
-        :return:
-        [
-          {
-            "id" : "<board_id>",
-            "name" : "<board_name>"
-          }
-        ]
-        """
+        
         try:
             result = ""
             json_request = json.loads(request)
@@ -133,7 +114,7 @@ class ProjectBoardBase:
             print(e)
 
     def export_board(self, request: str) -> str:
-       
+        
         try:
             result = ""
             json_request = json.loads(request)
