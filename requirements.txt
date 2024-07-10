@@ -1,1 +1,3 @@
-#Add the project dependencies to this file
+os
+json
+psycopg2
