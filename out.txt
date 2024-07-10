@@ -1,0 +1,22 @@
+{
+    "id": 1
+    "name": "board1",
+    "team_id": "TEAM_1",
+    "board created_time": "Wed July 10 13:05:02 2024",
+    "board_id": "1",
+    "status": "OPEN",
+    "tasks": [
+        {
+            "user_id": "USER_1",
+            "task_id": "TASK_1",
+            "board created_time": "Wed July 10 13:07:07 2024",
+            "status": "Board Created"
+        },
+        {
+            "user_id": "USER_2",
+            "task_id": "TASK_2",
+            "creation_time": "Wed July 10 13:09:50 2024",
+            "status": "Board Created "
+        }
+    ]
+}
